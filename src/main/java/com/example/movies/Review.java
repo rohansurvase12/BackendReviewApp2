@@ -7,14 +7,19 @@ import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+@Document(collation = "review")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Document(collation = "review")
+
 public class Review {
 
     @Id
     private ObjectId _id;
 
     private String review;
+
+    Review(String review){
+        this.review = review;
+    }
 }
