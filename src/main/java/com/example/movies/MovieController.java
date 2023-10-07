@@ -1,2 +1,4 @@
-package com.example.movies;public class MovieController {
+package com.example.movies;
+
+public class MovieController {
 }
