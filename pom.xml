@@ -65,6 +65,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+<!--		<finalName>ReviewBackend</finalName>-->
 	</build>
 
 </project>
