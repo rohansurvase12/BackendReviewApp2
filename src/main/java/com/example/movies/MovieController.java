@@ -13,7 +13,9 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("api/v1/movie")
-@CrossOrigin(origins = "http://localhost:3000")
+// @CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://capable-paprenjak-d1f277.netlify.app/")
+
 public class MovieController {
     @Autowired
     private MovieService service;
